@@ -1,0 +1,30 @@
+Variables and Datatypes
+
+1.cout is an object of iostream class
+it returns the output to the monitor
+not a special variable
+
+2.string is not a primitive datatype in c++ while int bool double are.
+
+3.int main() {
+
+ 
+
+   string s = ‘hello’;
+
+   cout << s << endl;
+
+   return 0;
+
+}
+
+**produces Compile error not hello**
+
+The above code when executed will produce output
+
+4.Which of the following statements is true about using ‘endl’ in C++?
+
+endl is a command / manipulator to insert a line
+endl flushes the output buffer
+Using too many endl introduces extra CPU overhead
+ans : All of the Above

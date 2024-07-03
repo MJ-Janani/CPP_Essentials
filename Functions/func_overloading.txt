@@ -1,0 +1,14 @@
+---------------------
+Function overloading
+----------------------
+1. creates multiple functions
+2. language features
+
+-func(int)
+-func(char)
+-should have different datatype
+or 
+-func(int)
+-func(char)
+-func(int,int)
+-should have different types of parameters

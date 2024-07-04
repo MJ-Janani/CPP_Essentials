@@ -1,3 +1,6 @@
+
+1. Pointer variables are created in Stack memory. They do require memory
+
 Pointers - 3
 void increment (int x)
 {

@@ -4,8 +4,9 @@ using namespace std;
 
 void print(int *array,int n){
     for(int i=0;i<n;i++){
-        cout<<array[i]<<endl;
+        cout<<array[i]<<" ";
     }
+    cout<<endl;
 }
 
 int linearSearch(int *arr,int n,int key){
@@ -30,5 +31,12 @@ int main(){
     int key;
     cout<<"Enter key to be found:"<<endl;
     cin>>key;
-    cout<<linearSearch(arr,n,key);
+    
+    int res=linearSearch(arr,n,key);
+    if (res==-1){
+        cout<<"Element not found"<<endl;
+    }
+    else{
+        cout<<"Present at index "<<res<<endl;
+    }
 }

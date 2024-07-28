@@ -1,3 +1,5 @@
+//Given an array of integers num and an integer, return indices of the two numbers such that they add up to target.
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
